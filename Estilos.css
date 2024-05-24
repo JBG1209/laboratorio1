@@ -1,0 +1,133 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+    background-color: rgb(30, 80, 174);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.contenedoropciones{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 570px;
+    height: auto;
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+.opciones{
+    transition: 1s;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.opciones:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    
+}
+
+.opciones a{
+    color: rgb(28, 30, 31);
+    text-decoration: none;
+}
+
+.todo{
+    background-color: white;
+   box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.3);
+    width: 900px;
+    height: 350px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.todo2{
+    background-color: white;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.3);
+     width: 400px;
+     height: auto;
+     display: flex;
+     margin: 0 auto;
+     margin-top: 100px;
+     padding: 20px;
+     border-radius: 20px;
+}
+.foto{
+    width: 400px;
+    background-image: url(5deoro.webp);
+    background-size: cover;
+    background-position: -80px;
+    border-radius: 20px;
+}
+form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+label{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(28, 30, 31);
+    padding: 10px;
+}
+input{
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0,0.2);
+    background-color: rgba(0, 0, 0, 0);
+}
+input:focus{
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 83, 199);
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    transition: 1s;
+    font-weight: 600;
+}
+button:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    color:white ;
+    background-color: rgb(28, 30, 31);
+}
+p{
+    color: rgb(28, 30, 31);
+    text-align: center;
+    padding: 10px;
+    height: 35px;
+    background-color: white;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+
+}
